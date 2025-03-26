@@ -1,6 +1,8 @@
 JsonParser.class
-com\example\Apiclient.class
-com\example\MyApiController.class
-APIFetch.class
 com\example\DatabaseTest.class
 com\example\App.class
+com\example\Apiclient.class
+com\example\DatabaseManager.class
+com\example\MyApiController.class
+APIFetch.class
+com\example\Animal.class
