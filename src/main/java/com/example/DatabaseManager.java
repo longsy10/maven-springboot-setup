@@ -68,6 +68,12 @@ public class DatabaseManager {
         insertAnimal("Dumbo", 10, "Elephant");
         insertAnimal("Polly", 2, "Parrot");
 
+        // Creating Animal objects (auto-save to DB)
+        Animal a1 = new Animal("Simba", 5, "Lion");
+        Animal a2 = new Animal("Dumbo", 10, "Elephant");
+        Animal a3 = new Animal("Polly", 2, "Parrot");
+
+
         System.out.println("----- All Animals in Zoo -----");
         getAllAnimals();
     }
